@@ -1,0 +1,108 @@
+#contenedor{
+    
+    padding:5px;
+    border: 3px solid rgb(72, 172, 97);
+}
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+    padding: 5px;
+    /*border: 1px solid blue;*/ 
+}
+#menu{
+    display: flex;
+    justify-content:end; 
+    margin: 1px;
+    /*border: 1px solid black;*/
+    border-bottom: 3px solid rgb(72, 172, 97);
+}
+#menu>ul{
+    display: flex;
+    /*border: 1px solid black;*/
+    width: 300px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;     
+}
+#menu li{
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    text-transform: uppercase;
+}
+#menu li:hover{
+    background-color: black;
+    color: blue;
+}
+#contenido1{
+    /*width: 100%;*/
+    display: flex;
+    margin: 1px;
+    padding: 5px;
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: space-between;
+}
+#contenido2{
+    /*width: 100%;*/
+    margin: 1px;
+    padding: 5px;
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(72, 172, 97);
+}
+h3{
+    text-align: center; 
+}
+#htmlss{
+    /*border: 1px solid black;*/
+    background-color: rgb(209, 69, 13);
+    color: white;
+}
+#jvs{
+    /*border: 1px solid black;*/
+    background-color: rgb(211, 164, 11);
+    color: white;
+}
+#csss{
+    /*border: 1px solid black;*/
+    background-color: rgb(26, 69, 207);
+    color: white;
+}
+#phph{
+    /*border: 1px solid black;*/
+    background-color: rgb(100, 77, 138);
+    color: white;
+}
+#htmls,#javascript{
+    /*border: 1px solid green;*/
+    width: 48%;  
+}
+#css3,#php{
+    /*border: 1px solid blue;*/
+    width: 48%;
+}
+#pie{
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /*border: 1px solid red;*/  
+}
+#txt{
+    padding: 5px;
+    /*border: 1px solid blue;*/
+    background-color: antiquewhite;
+}
+#redes{
+   display: flex;
+   
+   /*border: 1px solid black;*/
+}
+#htmls img,#javascript img,#css3 img,#php img{
+    float: left;
+}
+/**/
